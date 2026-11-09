@@ -3,7 +3,14 @@ services:
     image: dockurr/macos
     container_name: macos
     environment:
-      VERSION: "15"
+      VERSION: "11"
+  RAM_SIZE: "16G"
+  CPU_CORES: "8"
+  DISK_SIZE: "256G"
+  AUDIO: "Y"
+  GPU: "Y"
+devices:
+  - /dev/dri
     devices:
       - /dev/kvm
       - /dev/net/tun
