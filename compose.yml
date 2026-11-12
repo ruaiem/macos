@@ -18,8 +18,7 @@ services:
       - 5900:5900/udp
     volumes:
       - ./macos:/storage
-      volumes:
-  - ./pnp:/storage
+      - ./pnp:/storage
     restart: on-failure
     stop_grace_period: 720m
 
