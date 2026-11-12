@@ -3,7 +3,7 @@ services:
     image: dockurr/macos
     container_name: macos
     environment:
-      VERSION: "14"
+      VERSION: "11"
   RAM_SIZE: "16G"
   CPU_CORES: "4"
   DISK_SIZE: "256G"
