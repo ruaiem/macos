@@ -19,7 +19,7 @@ services:
     volumes:
       - ./macos:/storage
       volumes:
-  - ./macos:/storage
+  - ./pnp:/storage
     restart: on-failure
     stop_grace_period: 720m
 
